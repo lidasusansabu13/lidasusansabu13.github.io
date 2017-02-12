@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-image: url('https://fb-s-b-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/c33.0.200.200/p200x200/15268080_1326614510711180_4675835892966199323_n.jpg?oh=eff7432b174276f15999cee292148868&oe=58DD0DCC&__gda__=1491002080_6072a9b88983e6ee0c846920267e4f68');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/15317948_1331243383581626_2741468087623140783_n.jpg?oh=b9fd7407c5e756dfacc59b33c485329c&oe=58F3CA68');
+  background-size: cover;
+  color: black;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: black;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
