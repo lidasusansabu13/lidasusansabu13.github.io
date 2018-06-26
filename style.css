@@ -1,102 +1,160 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-image: url('https://fb-s-b-a.akamaihd.net/h-ak-xpt1/v/t1.0-0/c33.0.200.200/p200x200/15268080_1326614510711180_4675835892966199323_n.jpg?oh=eff7432b174276f15999cee292148868&oe=58DD0DCC&__gda__=1491002080_6072a9b88983e6ee0c846920267e4f68');
-  background-position: center top;
-  background-size: cover;
-  margin: 0;
+nav a{
+    text-decoration:none;
+    padding: 10px;
+    color: #692f97;
+    
+}
+a:hover,a:active{
+    color: black;
+    background-color: #cbc2d3;
+}
+nav{
+    text-align: center;
+    overflow: hidden;/*this is to touch the top of the page*/  
+    position: fixed;
+    width: 100%;
+    top:0; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:#130714;
+    position: sticky;
+    top: 0;Student Ambassador at ICFOSS
+}
+nav li{
+    padding: 10px;
+    display: inline-block;
+    
+}
+#surf {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    
+   
+  }
+  
+  #surf a {
+    display: block;
+    text-align: center;
+    
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+    
+  }
+  #surf img{
+      height: 35px;
+      width: 35px;
+      
+  }
+  #surf a:hover {
+      background-color: rgb(158, 62, 161);
+  }
+  
+#project{
+    height:600px;
+    
 }
 
-header {
-  padding: 20px 0;
+
+#dp{
+    height: 300px;
+    width: 300px;
+    
 }
 
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
+header{
+    background-image: url("cool-background.png");
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+#exp{
+    height: 200%;
+}
+li img{
+    width: 40px;
+    height: 40px;
+}
+ h1{
+    color:#490A3D;
+    font-family: Comic;
+}
+h2{
+    color: #363B73;
+}
+p{
+    font-family: Tahoma, Geneva, sans-serif,fantasy;
+}
+#contact{
+    background-color: #BD1550;
+    height: 300px;
+    width: 100%;
+}
+footer{
+    background-color:black;
+    overflow: hidden;
+    
+}
+/* Intro Blocks
+--------------------------------------------------------------------------------------------------------------- */
+#introblocks{}
+/*#introblocks > li:last-child{margin-bottom:0;} Used when elements stack in small viewports */
+#introblocks article {display:inline-block; text-align:center; padding:30px 20px;}
+#introblocks article *{margin:0 0 25px 0;}
+#introblocks  li{display: inline-block; 
+                 padding: 50px;
+                 height: 300px;
+                 width: 300px;
+                 }
+#introblocks article .btn{margin:10px 0 0 0;}
+/*#introblocks article > :last-child{margin-bottom:0;}*/
+#introblocks article i{display:inline-block;
+     width:80px; height:80px; line-height:78px; border:1px solid; text-align:center; font-size:32px;}
+#introblocks article footer i{width:auto; height:auto; line-height:inherit; border:none; font-size:inherit;}
+/* Intro Blocks */
+#introblocks article{box-shadow:0px 0px 8px rgba(255,255,255,.2);}
+#introblocks article:hover{background-color:rgba(0,0,0,1);}
+#introblocks article i{color:rgb(59, 170, 152); border-color:rgba(255,255,255,.2);}
+#introblocks article footer i{color:inherit;}
+#introblocks article:hover > a i{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
+.sectiontitle{
+              display:block; 
+              max-width:55%; 
+              margin:0 auto 80px; 
+              text-align:center;
+             }
+
+
+body{color:#DFDFDF; 
+    background-color:#210714;
+    padding: 0;
+    margin: 0;
 }
 
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
+a{color:#FD8866;}
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
+a:active, a:focus{background:transparent;}
 
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/15317948_1331243383581626_2741468087623140783_n.jpg?oh=b9fd7407c5e756dfacc59b33c485329c&oe=58F3CA68');
-  background-size: cover;
-  color: black;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
+hr, .borderedbox{border-color:#D7D7D7;}
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: black;
-}
 
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
 
-.col-md-6 {
-  margin: 0 0 30px;
-}
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
 
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
+.btn{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
+.btn:hover{color:inherit; background-color:transparent; border-color:inherit;}
