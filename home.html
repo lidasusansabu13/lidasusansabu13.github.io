@@ -1,49 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resume</title>
+	<title>Lida Susan Sabu</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script  type="text/js" src="event.js" ></script>
+
 </head>
 <body>
-<div id='home'>
-<nav>
-	<ul style="list-style-type:none">
-		<li><a href="">Home</a></li>
-		<li><a href="">Projects</a></li>
-		<li><a href="">Experences</a></li>
-		<li><a href="">Details</a></li>
-		<li><a href="">Contact</a></li>
-		<span>
-		<li><img src="" alt="git profile"></li>
-		<li><img src="" alt="linked in profile"></li>
-		<li><img src="" alt="facebook profile"></li>
-		</span>
-	</ul>
-</nav>
+		<nav>
+				<ul style="list-style-type:none">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#pro">Projects</a></li>
+					<li><a href="#exp">Experences</a></li>
+					<li><a href="#details">Details</a></li>
+					<li><a href="#contact">Contact</a></li>
+					
+				</ul>
+		</nav>
+
+<header id="home">
+
 <!--got to implement processing-->
+</br>
 	<h1>Lida Susan Sabu</h1>
 	<p>I am an Engineer and I love .....</p><!--this where it will keep changing between coding,ex;erimenting,updarting, and a lot of fun words like that i am typing with a cursor-->
-	<img src="" alt="my profile pic">
+	<img src="dp.jpg" alt="my profile pic" id="dp">
+
+</header>
+<div id="surf">
+	
+		
+				<a href="www.facebook.com" target="blank_"><img src="git.png" alt="git profile"></a>
+				<a href=""><img src="in.png" alt="linked in profile"></a>
+			    <a href=""><img src="fb.png" alt="facebook profile"></a>
+			
+</div><!--section title-->
+<div id="pro" >
+        <section id="introblocks"> 
+              <div class="sectiontitle">
+                  <h2>project</h2><br>
+                  <p>Here are some details about the projects I have been a part of</p>
+                </div>
+                <ul style="list-style-type:none"> 
+                  <li>
+                    <article><a href="#"><i>E</i></a>
+                      <h6 class="heading">Malayalam Word Net</h6>
+                      <p>Firefox Extention....[&hellip;]</p>
+                      <footer><a class="btn" href="#">View Source Code <i></i></a></footer>
+                    </article>
+                  </li>
+                  <li>
+                    <article><a href="#"><i>B</i></a>
+                      <h6 class="heading">Braillie mail</h6>
+                      <p>Andriod Email System[&hellip;]</p>
+                      <footer><a class="btn" href="#">View Source Code <i></i></a></footer>
+                    </article>
+                  </li>
+                  <li>
+                    <article><a href="#"><i>W</i></a>
+                      <h6 class="heading">My Resume websit</h6>
+                      <p>Basic Website.....[&hellip;]</p>
+                      <footer><a class="btn" href="#">View Source Code <i></i></a></footer>
+                    </article>
+                  </li>
+                </ul>
+                
+              </section>
 </div>
-<div>
-	<h2>Projects</h2>
-	<ul style="list-style-type:square">
-		<li>
-			<h3>Malayalam WordNet</h3>
-			<p>It is a Web Extension designed for mozilla Firefox.which shows the lexical meaning and related information of malayalam words from the Indo word Net web site .</p>
-		</li>
-		<li>
-			<h3>Braillie mail</h3>
-			<p>It is basically an android application designed for visually impaired and handicapped to send and receive mail. It uses speech to text conversion and wise versa.The development is still in progress.</p>
-		</li>
-		<li>
-			<h3>My Resume websit</h3>
-			<p>In future it will be a very brilliant websit that you in now</p>
-		</li>
-	</ul>
-</div>
-<div>
+<div id="exp">
 	<h2>Experinences</h2>
 	<ul style="list-style-type:square"><!--implement the graph conndccting  and icons of home deatils contact etc.. should cm for easy navigation it should float-->
 		<li>
@@ -85,18 +110,27 @@
 		</li>
 	</ul>
 </div>
-<div>
+<div id="details">
+	<br><br><br>
 	<h2>Details</h2>
+	<h3>Education</h3>
 	<p>10th:Bethany Academy</p>
 	<p>12th:Mary Rani Public School and Junior college</p>
 	<p>Btech:College of Engineering Chenganuur</p>
 </div>
-<div>
+<div id="contact">
 	<h2>Contact me</h2>
 	<fieldset>
 		<label>The place where they are able to sent me mail</label>
 	</fieldset>
 </div>
+<footer>
+	
+	<p>Thank You</p><img src="#"/><span>Lida Susan Sabu</span>
+</footer>
 
+<!--
+<canvas class="background"></canvas>
+<script src="particles/dist/particles.min.js"></script>-->
 </body>
 </html>
