@@ -1,5 +1,5 @@
 #backgroundimage {
-    background-image: url("img/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+    background-image: url("../img/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
     width: 100vw;
     height: 100vh; 
     background-size: 100% 100%;
@@ -12,5 +12,13 @@ nav{
     }
 
 body{
-    color: blue;
+    color: rgb(155, 155, 174);
+}
+
+#textboxes{
+    width: 50%;
+    display: table-cell;
+    padding-right: 800px;
+    padding-top: 250px;
+    padding-left: 50px;
 }
